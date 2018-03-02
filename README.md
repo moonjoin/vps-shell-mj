@@ -1,11 +1,21 @@
 # vps-shell-mj
-整理一些VPS实用脚本，一键安装，对中国小白用户友好
+整理一些VPS实用脚本，基本一键傻瓜式，对中国小白用户友好
 
-###通过yun源命令来安装wget：
+****
+## 目录
+* [通过yum源命令来安装wget](#通过yum源命令来安装wget)
+* [一键测试服务器到国内的速度](#一键测试服务器到国内的速度)
+* [一键测试服务器的基本参数](#一键测试服务器的基本参数)
+* [测试脚本](#测试脚本)
+* [SSR单、多端口一键管理脚本](#一键管理脚本)
+* [Shadowsocks 一键安装脚本（四合一）](#一键安装脚本四合一)
+
+
+### 通过yum源命令来安装wget：
 ```javascript
 yum -y install wget   
 ```
-###SuperSpeed.sh 一键测试服务器到国内的速度：
+### 一键测试服务器到国内的速度：
 
 非常的简单，每行一条命令
 ```javascript
@@ -13,7 +23,7 @@ wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh
 chmod +x superspeed.sh
 ./superspeed.sh
 ```
-###SuperBench.sh 一键测试服务器的基本参数：
+### 一键测试服务器的基本参数：
 ```javascript
 wget -qO- –no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
 ```
@@ -21,12 +31,12 @@ wget -qO- –no-check-certificate https://raw.githubusercontent.com/oooldking/sc
 ```javascript
 curl -Lso- –no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
 ```
-###测试脚本：
+### 测试脚本：
 ```javascript
 wget -qO- alicdn.github.io/io.sh | bash
 ```
 
-##[SSR单、多端口一键管理脚本](https://www.ubedu.site/archives/528.html)
+## [一键管理脚本](https://www.ubedu.site/archives/528.html)
 
 本脚本适用环境
 
@@ -41,7 +51,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 bash ssr.sh    
 ```
 
-##[Shadowsocks 一键安装脚本（四合一）](https://teddysun.com/486.html/comment-page-1)
+## [一键安装脚本四合一](https://teddysun.com/486.html/comment-page-1)
 
 本脚本适用环境
 
