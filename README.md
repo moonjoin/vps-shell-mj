@@ -12,46 +12,46 @@
 
 
 ### 通过yum源命令来安装wget：
-```javascript
+```Bash
 yum -y install wget   
 ```
 ### 一键测试服务器到国内的速度：
 
 非常的简单，每行一条命令
-```javascript
+```Bash
 wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh
 chmod +x superspeed.sh
 ./superspeed.sh
 ```
 ### 一键测试服务器的基本参数：
-```javascript
+```Bash
 wget -qO- –no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
 ```
 或者
-```javascript
+```Bash
 curl -Lso- –no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
 ```
 ### 测试脚本：
-```javascript
+```Bash
 wget -qO- alicdn.github.io/io.sh | bash
 ```
 
-## [一键管理脚本](https://www.ubedu.site/archives/528.html)
+### [一键管理脚本](https://www.ubedu.site/archives/528.html)
 
 本脚本适用环境
 
 CentOS 6+, Debian 6+, Ubuntu 14.04 +
 
 安装：
-```javascript
+```Bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh 
 ```
 控制命令：
-```javascript
+```Bash
 bash ssr.sh    
 ```
 
-## [一键安装脚本四合一](https://teddysun.com/486.html/comment-page-1)
+### [一键安装脚本四合一](https://teddysun.com/486.html/comment-page-1)
 
 本脚本适用环境
 
@@ -60,7 +60,7 @@ bash ssr.sh
 内存要求：≥128M
 
 使用root用户登录，运行以下命令：
-```javascript
+```Bash
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
@@ -68,6 +68,6 @@ chmod +x shadowsocks-all.sh
 若已安装多个版本，则卸载时也需多次运行（每次卸载一种）
 
 使用root用户登录，运行以下命令：
-```javascript
+```Bash
 ./shadowsocks-all.sh uninstall 
 ```
