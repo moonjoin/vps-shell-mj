@@ -92,14 +92,12 @@ chmod +x shadowsocks-all.sh
 ```Bash
 ./shadowsocks-all.sh uninstall 
 ```
-### [加速一键安装包](https://www.91yun.co/archives/5174)
+### [加速一键安装包](https://teddysun.com/489.html)
 
 使用 root 用户登录，运行以下命令：
 
 ```Bash
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
-chmod +x bbr.sh
-./bbr.sh
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 安装完成后，脚本会提示需要重启 VPS ，输入 y 并回车后重启。
 
