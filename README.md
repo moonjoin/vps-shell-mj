@@ -94,7 +94,7 @@ chmod +x shadowsocks-all.sh
 ```
 ### [加速一键安装包](https://teddysun.com/489.html)
 
-使用 root 用户登录，运行以下命令：
+(BBR加速)使用 root 用户登录，运行以下命令：
 
 ```Bash
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
