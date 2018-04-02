@@ -11,7 +11,7 @@
 * [SSR单、多端口一键管理脚本](#一键管理脚本)
 * [Shadowsocks 一键安装脚本（四合一）](#一键安装脚本四合一)
 * [Centos/Ubuntu/Debian BBR加速一键安装包](#加速一键安装包)
-* [CentOS更换内核，提供锐速可用的内核下载](#提供锐速可用的内核下载)
+* [BBR+BBR魔改+Lotsever(锐速)一键脚本 for Centos/Debian/Ubuntu](#魔改脚本)
 
 
 
@@ -105,3 +105,11 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 直接点上面超链接进去
 
+### [魔改脚本](https://www.moerats.com/archives/387/)
+
+BBR+BBR魔改+Lotsever(锐速)一键脚本 for Centos/Debian/Ubuntu
+
+```Bash
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+根据自己需求操作，重启后再使用./tcp.sh命令接着操作。
