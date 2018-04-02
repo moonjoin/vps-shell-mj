@@ -101,9 +101,6 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ```
 安装完成后，脚本会提示需要重启 VPS ，输入 y 并回车后重启。
 
-### [提供锐速可用的内核下载](https://www.91yun.co/archives/795)
-
-直接点上面超链接进去
 
 ### [魔改脚本](https://www.moerats.com/archives/387/)
 
